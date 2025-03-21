@@ -1,4 +1,3 @@
-import {socialLinks} from "../data";
 
 const SocialLinks = ({id, href, icon, itemClass}) => {
     return (
