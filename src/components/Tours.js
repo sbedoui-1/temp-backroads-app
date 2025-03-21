@@ -11,7 +11,7 @@ const Tours = () => {
                   tours.map((tour) => {
                       const {id, image, date, title, text, location, duration, from} = tour;
                       return (
-                        <Tour id={tour.id} from={tour.from} title={tour.title} text={tour.text} date={tour.date} duration={tour.duration} image={tour.image} location={tour.location}/>
+                        <Tour id={id} from={from} title={title} text={text} date={date} duration={duration} image={image} location={location}/>
                       );
                   })
               }
